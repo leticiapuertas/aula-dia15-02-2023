@@ -1,0 +1,130 @@
+<h1>TOPOLOGIA:</h1>
+<h3>Topologia Barramento:</h3>
+<p>
+    Como nos computadores, numa rede o barramento é um caminho de transmissão de sinais, estes são largados e lidos pelos dispositivos cujo endereço foi especificado. No caso de uma rede com esta topologia em vez de sinais temos pacotes de dados, cujo cabeçalho contém o endereço do destinatário.
+     Na figura seguinte pode ser visualizada uma topologia em barramento, que consiste num cabo com dois pontos terminais e com diversos dispositivos ligados ao barramento (cabo).
+    Numa rede em barramento todos os dispositivos estão ligados directamente à linha por onde circulam os pacotes, pelo que todos os dispositivos da rede vêm os pacotes. Cada dispositivo da rede tem um endereço único, que permite através da análise dos pacotes seleccionar os que lhe são destinados.
+<P>
+    <h5>FONTE: https://paginas.fe.up.pt/~goii2000/M3/redes2.htm</h5>
+</P>
+</p>
+<h3>Topologia Anel:</h3>
+<p>
+    Na topologia em anel cada dispositivo os pacotes circulam por todos os dispositivos da rede, tendo cada um o seu endereço. O fluxo de informação é unidireccional, existindo um dispositivo (hub) que intercepta e gere o fluxo de dados que entra e sai do anel. A tecnologia token ring aparece usualmente com esta topologia.
+    Nas redes em estrela os diversos dispositivos estão ligados a um hub central tal como na rede em estrela, mas as ligações fisicas entre o hub e os diversos dispositivos formam uma rede em anel, como se pode ver na figura seguinte. Esta topologia fisica é utilizada nas redes Token-Ring da IBM. Os hubs utilizados neste tipo de rede tem de possuir uma certa inteligência, para, em caso de corte do anel o hub consiga fazer um novo anel.
+     Nos dias que correm as topologias em estrela e suas derivadas são as preferidas dos instaladores de redes pois são as que mais facilitam a adição de novos dispositivos de rede.
+     
+<p>
+    <h5>FONTE: https://paginas.fe.up.pt/~goii2000/M3/redes2.htm</h5>
+</p>
+</p>
+<h3>Topologia Estrela:</h3>
+<P>
+    Como o nome indica esta topologia tem a forma de uma estrela, e consiste em vários cabos que unem cada dispositivo a um ponto central.
+     As redes Ethernet a 10 Mbps (10Base-T) são baseadas numa estrutura em estrela, e onde cada dispositivo da rede está ligado a um hub 10Base-T por um cabo de par entrançado (ou RJ45).
+     Para que uma rede tenha topologia em estrela não é necessário ter uma disposição em forma de estrela, é necessário somente cada dispositivo da rede estar ligado por um cabo pró prio a um ponto central. 
+     A topologia em estrela distribuida é um pouco mais complexa que a topologia em estrela simples, pois neste caso existem multiplos pontos de ligação centrais, como se pode ver na próxima figura.
+<p> 
+    <h5>FONTE: https://paginas.fe.up.pt/~goii2000/M3/redes2.htm</h5>
+</p>
+ </P>
+ <h3>Topologia Malha:</h3>
+<p>
+    Em uma topologia em malha, se qualquer cabo ou nó falha, existem muitas outras maneiras para dois nós se comunicarem. Embora a facilidade de solução de problemas e o aumento da confiabilidade sejam vantagens definitivas, as redes em malha são caras para instalar porque usam muito cabeamento. Muitas vezes, uma topologia de malha é usada em conjunto com outras topologias (como estrela, anel e barramento) para formar uma topologia híbrida. 
+    Algumas arquiteturas WAN, como a Internet, usam roteamento em malha. Portanto, a Internet permite que os sites se comuniquem mesmo durante uma guerra.
+<p>Existem dois tipos de topologias de malha: malha completa e malha parcial:</p>
+<p>
+   1-Topologia de malha completa ocorre quando cada nó tem um circuito conectando-o a cada outro nó em uma rede. Malha completa é muito cara para implementar e produz a maior quantidade de redundância, então, no caso de um desses nós falhar, o tráfego de rede pode ser direcionado para qualquer um dos outros nós.
+   A malha completa é geralmente reservada para redes backbone.
+</p>
+<p>
+    2-Com malha parcial, alguns nós são organizados em um esquema de malha completa, mas outros só estão conectados a um ou dois nós na rede. A topologia de malha parcial é comumente encontrada em redes periféricas conectadas a um backbone. 
+    É menos caro para implementar e produz menos redundância do que a topologia de malha completa.
+</p>
+<p>
+    <h5>FONTE:https://www.edrawsoft.com/pt/mesh-network.html</h5>
+</p>
+</p>
+<P><h1>ARQUITETURA:</h1></P>
+<p>
+ <h3>ARC-NET:</h3>
+</p>
+<p>
+    A Arcnet é uma arquitetura de rede antiga, que existe desde a década de 70. É claro que de lá pra cá houveram avanços, mas não o suficiente para manter as redes Arcnet competitivas frente às redes Ethernet e outras tecnologias modernas.
+    Atualmente as redes Arcnet estão em vias de extinção, você não encontrará placas Arcnet à venda e mesmo que as consiga, enfrentará uma via sacra atrás de drivers para conseguir fazê-las funcionar, isso se conseguir.
+    Apesar de suas limitações, o funcionamento de rede Arcnet é bem interessante por causa de sua flexibilidade.
+     Como a velocidade de transmissão dos dados é bem mais baixa, é possível usar cabos coaxiais de até 600 metros, ou cabos UTP de até 120 metros. Por serem bastante simples, os hubs Arcnet também são baratos.
+O funcionamento lógico de uma rede Arcnet também se baseia num pacote de Token, a diferença é que ao invés do pacote ficar circulando pela rede, é eleita uma estação controladora da rede, que envia o pacote de Token para uma estação de cada vez.
+<p>
+    <h5>FONTE:https://www.hardware.com.br/termos/arcnet/</h5>
+</p>
+</p>
+<p>
+    <h3>DSL (ADSL):</h3>
+</p>
+<p>Ainda bastante utilizada, a DSL é um tipo de conexão que utiliza da linha telefônica para fornecer o serviço de internet, também utiliza a mesma rede, que emprega fios de cobre, geralmente em pares.
+    A DSL representou um avanço em relação às antigas conexões discadas, que eram extremamente lentas. Atualmente, a DSL ainda consegue atender as necessidades de grande parte dos usuários, principalmente para o uso doméstico, devido ao baixo custo de instalação e manutenção. 
+    Entretanto, para o uso comercial, ela já começa a apresentar grandes limitações, especialmente, no que diz respeito à velocidade. A DSL não é capaz de suportar grandes velocidades, além de depender de linhas telefônicas.
+<p>
+    <h5>FONTE:https://nwi.com.br/2018/11/17/dsl-cabo-ou-fibra-otica-veja-um-comparativo/#:~:text=DSL%20(Digital%20Subscriber%20Line),de%20cobre%2C%20geralmente%20em%20pares.</h5>
+</p>
+</p>
+<p><h3>ETHERNET:</h3></p>
+<p>
+    A Ethernet é uma tecnologia de rede capaz de agregar novas tecnologias em uma comunicação compartilhada por um único cabo para todos os dispositivos da rede. 
+    Isso permite que a rede se expanda para acomodar novos dispositivos sem ter de modificar os dispositivos antigos.
+ <p>
+        A terminologia é fundamental para compreender algumas regras simples que regem a operação básica da Ethernet. Veremos agora as terminologias “meio”, “segmentos”, “nó” e “frame”.
+
+ </p> 
+ <p>
+    <h4>Meio:</h4> Os dispositivos Ethernet se conectam a um meio comum que fornece um caminho para os sinais eletrônicos. Hoje em dia, esse meio utiliza cabeamento de par trançado ou fibra ótica. 
+
+ </p>
+ <p>
+    <h4>Segmentos:</h4> um único meio compartilhado é um segmento Ethernet.
+</p>
+<p>
+    <h4>Nó:</h4> dispositivo que se conecta ao segmento.
+</p>
+<p>
+    <h4>Frame:</h4> os nós se comunicam através de mensagens curtas chamadas frames, que são blocos de informação de tamanho variável. 
+</p>
+</p>
+<p>
+    <h5>FONTE:https://canaltech.com.br/infra/lan-wlan-man-wan-pan-conheca-os-principais-tipos-de-redes/</h5>
+</p>
+<p><h1>TIPOS DE NETWORKS:</h1></p>
+<P>
+    LAN: Rede local
+</P>
+<p>
+    WAN: Rede de longa distância
+</p>
+<p>
+    WLAN: Rede local sem fio
+</p>
+<p>
+    PAN: Rede de área pessoal 
+</p>
+<p>
+    MAN: Rede Metropolitana
+</p>
+<p>
+    <h5>FONTE:https://canaltech.com.br/infra/lan-wlan-man-wan-pan-conheca-os-principais-tipos-de-redes/</h5>
+</p>
+<p>
+    <h1>MEIOS DE TRANSMISSÃO:</h1>
+</p>
+<p>
+    <h3>Guiados:</h3>Um meio guiado é a transmissão por cabos ou fios de cobre, onde os dados transmitidos são convertidos em sinais elétricos que propagam pelo material condutor, e a transmissão por fibras ópticas, onde os dados são convertidos em sinais luminosos e então propagados pelo material transparente da fibra óptica.
+</p>
+<p>
+    <h5>FONTE:https://www.teleco.com.br/tutoriais/tutorialcameraip1/pagina_3.asp#:~:text=Um%20meio%20guiado%20%C3%A9%20a,material%20transparente%20da%20fibra%20%C3%B3ptica.</h5>
+</p>
+<p>
+    <h3>Não guiados:</h3>Os meios de transmissão não guiados transportam ondas eletromagnéticas sem o uso de um condutor físico. Esse tipo de comunicação é, muitas vezes, conhecido como comunicação sem fio.
+</p>
+<p>
+<h5>FONTE: https://wiki.sj.ifsc.edu.br/images/2/22/Ch07_pt_BR.pdf</h5>
+</p>
